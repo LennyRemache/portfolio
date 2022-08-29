@@ -1,9 +1,30 @@
 .project {
-  margin: 50px;
+  margin: 30px;
   color: aliceblue;
 }
 
 .project-gif {
   max-width: 600px;
+  width: 100%;
   object-fit: contain;
+}
+
+.project-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.project-buttons > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  border: 0px solid red;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: rgba(63, 70, 158, 0.522);
+  color: aliceblue;
+  font-size: 11pt;
+  margin: 10px 10px;
+  padding: 5px 10px;
 }

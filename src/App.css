@@ -6,6 +6,8 @@
 .app {
   height: 100vh;
   border: 0px solid blue;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .main-content {
@@ -16,6 +18,16 @@
 }
 
 #projects {
+  padding: 6em 0;
+}
+
+#projects > h2 {
+  text-align: center;
+  margin: 0%;
+  color: aliceblue;
+}
+
+.projects {
   margin: auto;
   max-width: 1500px;
   display: flex;

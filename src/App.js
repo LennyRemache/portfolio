@@ -7,27 +7,38 @@ import About from "./components/About";
 import Project from "./components/Project";
 import MovieInfo from "./img/MovieInfo.gif";
 import DevChat from "./img/DevChat.gif";
+import LinkTracker from "./img/LinkTracker.gif";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" id="top">
       <Background />
       <Navigation />
       <Intro />
       <About />
+
       <div id="projects">
-        <Project
-          appImage={DevChat}
-          link="https://messaging-app-5f014.web.app/"
-          name="DevChat"
-        />
-        <Project
-          appImage={MovieInfo}
-          link="https://lenny-movie-search.netlify.app/"
-          name="Movie.Info"
-        />
-        <Project appImage={MovieInfo} />
-        <Project appImage={MovieInfo} />
+        <h2>Projects</h2>
+        <div className="projects">
+          <Project
+            appImage={DevChat}
+            link="https://messaging-app-5f014.web.app/"
+            name="DevChat"
+            git="https://github.com/LennyRemache/messaging-app.git"
+          />
+          <Project
+            appImage={MovieInfo}
+            link="https://lenny-movie-search.netlify.app/"
+            name="Movie.Info"
+            git="https://github.com/LennyRemache/movie-info-search.git"
+          />
+          <Project
+            appImage={LinkTracker}
+            link="https://github.com/LennyRemache/chrome-extension.git"
+            name="Link Tracker Chrome Extension"
+            git="https://github.com/LennyRemache/chrome-extension.git"
+          />
+        </div>
       </div>
     </div>
   );

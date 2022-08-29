@@ -7,7 +7,7 @@ function Navigation() {
   return (
     <Navbar collapseOnSelect expand="md" variant="dark">
       <Container>
-        <Navbar.Brand href="#">Lenny Remache</Navbar.Brand>
+        <Navbar.Brand href="/">Lenny Remache</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
