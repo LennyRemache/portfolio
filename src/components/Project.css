@@ -1,0 +1,9 @@
+.project {
+  margin: 50px;
+  color: aliceblue;
+}
+
+.project-gif {
+  max-width: 600px;
+  object-fit: contain;
+}
