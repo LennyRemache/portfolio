@@ -28,6 +28,7 @@
 .links > a {
   color: rgba(57, 114, 219, 0.967);
   font-weight: bold;
+  margin: 2px;
 }
 .links > a:hover {
   color: rgba(58, 68, 196, 0.876);
