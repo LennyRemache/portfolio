@@ -9,6 +9,7 @@ import MovieInfo from "./img/MovieInfo.gif";
 import DevChat from "./img/DevChat.gif";
 import LinkTracker from "./img/LinkTracker.gif";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -33,7 +34,6 @@ function App() {
               react: true,
               redux: true,
               firebase: true,
-              bootstrap: true,
               materialUI: true,
             }}
           />
@@ -63,6 +63,7 @@ function App() {
         </div>
       </div>
       <Contact />
+      <Footer />
     </div>
   );
 }

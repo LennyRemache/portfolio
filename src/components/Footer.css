@@ -1,0 +1,48 @@
+.footer {
+  border: 0px solid blue;
+  background-color: rgba(18, 21, 61, 0.863);
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 50px 25px;
+}
+
+.footer-copyright {
+  width: fit-content;
+  font-size: x-small;
+  font-weight: 600;
+}
+
+.footer-copyright > p {
+  color: rgb(160, 160, 160);
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 15px 0;
+}
+
+.links > a {
+  color: rgba(57, 114, 219, 0.967);
+  font-weight: bold;
+}
+.links > a:hover {
+  color: rgba(58, 68, 196, 0.876);
+}
+
+.contacts > p {
+  font-weight: bold;
+}
+
+.footer-icons > a {
+  margin: 0 10px 0 0;
+}
+
+@media screen and (max-width: 570px) {
+  .footer {
+    flex-direction: column;
+  }
+}

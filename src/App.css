@@ -8,6 +8,8 @@
   border: 0px solid blue;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  font-weight: bold;
+  color: aliceblue;
 }
 
 .main-content {

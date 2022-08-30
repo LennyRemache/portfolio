@@ -4,7 +4,7 @@
 }
 
 .project {
-  max-width: 700px;
+  max-width: 600px;
   width: 100%;
   margin: 30px;
   color: aliceblue;
@@ -18,7 +18,7 @@
 }
 
 .project-gif {
-  max-width: 700px;
+  max-width: 600px;
   width: 100%;
   object-fit: contain;
 }
@@ -60,6 +60,7 @@ a {
 .project-tools {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   padding: 10px;
 }
