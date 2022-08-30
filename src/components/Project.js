@@ -1,6 +1,5 @@
 import "./Project.css";
 import { GitHub, Home } from "@mui/icons-material";
-import HomeIcon from "@mui/icons-material/Home";
 
 function Project({ appImage, link, name, git }) {
   return (
