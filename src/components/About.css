@@ -36,3 +36,18 @@
   font-weight: bolder;
   color: rgb(66, 134, 229);
 }
+
+@media screen and (min-width: 760px) {
+  .about-content {
+    flex-direction: row;
+    max-width: 750px;
+  }
+
+  .about-img {
+    margin: 0 20px;
+  }
+
+  .background-info {
+    margin: 0 20px;
+  }
+} ;
