@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import MovieInfo from "./img/MovieInfo.gif";
 import DevChat from "./img/DevChat.gif";
 import LinkTracker from "./img/LinkTracker.gif";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           />
         </div>
       </div>
+      <Contact />
     </div>
   );
 }

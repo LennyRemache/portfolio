@@ -25,6 +25,9 @@ h1 {
   font-size: 35px;
   margin: 10px 10px 10px 0;
 }
+.contact-icons > a > .MuiSvgIcon-root:hover {
+  color: rgba(140, 142, 174, 0.522);
+}
 
 .intro--caption {
   color: rgb(192, 192, 195);

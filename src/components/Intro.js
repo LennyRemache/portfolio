@@ -17,7 +17,7 @@ function Intro() {
           <a href="https://www.linkedin.com/in/lennyremache/" target="_blank">
             <LinkedInIcon />
           </a>
-          <a>
+          <a href="#contact">
             <EmailIcon />
           </a>
         </div>
