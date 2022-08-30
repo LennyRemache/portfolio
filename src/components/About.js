@@ -6,7 +6,7 @@ function About() {
     <div className="about" id="about">
       <h2>Background</h2>
       <div className="about-content">
-        <img className="about-img" src={portrait} />
+        <img className="about-img" src={portrait} alt="Lenny Remache" />
         <p className="background-info">
           I recently graduated from{" "}
           <span className="uni-bold">

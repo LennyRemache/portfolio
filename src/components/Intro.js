@@ -11,10 +11,18 @@ function Intro() {
           Hi, I'm Lenny | <span className="underline">Frontend Developer</span>
         </h1>
         <div className="contact-icons">
-          <a href="https://github.com/LennyRemache" target="_blank">
+          <a
+            href="https://github.com/LennyRemache"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/lennyremache/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/lennyremache/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon />
           </a>
           <a href="#contact">
