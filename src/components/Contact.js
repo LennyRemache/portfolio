@@ -1,5 +1,6 @@
 import "./Contact.css";
 import React, { useState } from "react";
+import SendIcon from "@mui/icons-material/Send";
 
 function Contact() {
   const [contactData, setContactData] = useState({
@@ -16,12 +17,19 @@ function Contact() {
     }));
   }
 
-  console.log(contactData);
+  function handleSubmit(event) {
+    event.preventDefault();
+    setContactData({
+      name: "",
+      email: "",
+      message: "",
+    });
+  }
 
   return (
     <div className="contact" id="contact">
       <h3>Lets Have a Chat</h3>
-      <form>
+      <form className="contact-form">
         <input
           type="text"
           name="name"
@@ -47,7 +55,10 @@ function Contact() {
           required
           onChange={handleChange}
         />
-        <button type="submit">Send Message</button>
+        <button type="submit" onClick={handleSubmit}>
+          Send
+          <SendIcon />
+        </button>
       </form>
     </div>
   );
