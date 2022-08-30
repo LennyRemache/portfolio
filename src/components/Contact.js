@@ -1,6 +1,7 @@
 import "./Contact.css";
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import SendIcon from "@mui/icons-material/Send";
+import emailjs from "@emailjs/browser";
 
 function Contact() {
   const [contactData, setContactData] = useState({
@@ -8,6 +9,32 @@ function Contact() {
     email: "",
     message: "",
   });
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    setContactData({
+      name: "",
+      email: "",
+      message: "",
+    });
+    emailjs
+      .sendForm(
+        "service_697szpe",
+        "template_14axnup",
+        form.current,
+        "e6RQN-wYMa77xnrzp"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   function handleChange(event) {
     const { name, value } = event.target;
@@ -17,19 +44,10 @@ function Contact() {
     }));
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    setContactData({
-      name: "",
-      email: "",
-      message: "",
-    });
-  }
-
   return (
     <div className="contact" id="contact">
       <h3>Lets Have a Chat</h3>
-      <form className="contact-form">
+      <form ref={form} className="contact-form" onSubmit={sendEmail}>
         <input
           type="text"
           name="name"
@@ -55,7 +73,7 @@ function Contact() {
           required
           onChange={handleChange}
         />
-        <button type="submit" onClick={handleSubmit}>
+        <button type="submit">
           Send
           <SendIcon />
         </button>
