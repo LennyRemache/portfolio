@@ -26,17 +26,39 @@ function App() {
             link="https://messaging-app-5f014.web.app/"
             name="DevChat"
             git="https://github.com/LennyRemache/messaging-app.git"
+            tools={{
+              html: true,
+              css: true,
+              javascript: true,
+              react: true,
+              redux: true,
+              firebase: true,
+              bootstrap: true,
+              materialUI: true,
+            }}
           />
           <Project
             appImage={MovieInfo}
             link="https://lenny-movie-search.netlify.app/"
             name="Movie.Info"
             git="https://github.com/LennyRemache/movie-info-search.git"
+            tools={{
+              html: true,
+              css: true,
+              javascript: true,
+              bootstrap: true,
+              netlify: true,
+            }}
           />
           <Project
             appImage={LinkTracker}
             name="Link Tracker Chrome Extension"
             git="https://github.com/LennyRemache/chrome-extension.git"
+            tools={{
+              html: true,
+              css: true,
+              javascript: true,
+            }}
           />
         </div>
       </div>

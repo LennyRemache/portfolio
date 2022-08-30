@@ -1,6 +1,6 @@
 .navbar {
   backdrop-filter: blur(10px);
-  position: sticky !important;
+  position: sticky;
   top: 0;
   text-align: center;
   z-index: 1;

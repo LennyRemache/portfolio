@@ -1,4 +1,11 @@
+@font-face {
+  font-family: Dosis;
+  src: url(../fonts/Dosis/static/Dosis-ExtraBold.ttf);
+}
+
 .project {
+  max-width: 700px;
+  width: 100%;
   margin: 30px;
   color: aliceblue;
   border: 0px solid rgba(48, 152, 196, 0.75);
@@ -11,7 +18,7 @@
 }
 
 .project-gif {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   object-fit: contain;
 }
@@ -48,4 +55,53 @@ a {
 
 .project-buttons > a > .MuiSvgIcon-root {
   margin-right: 5px;
+}
+
+.project-tools {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.project-tools > p {
+  margin: 10px;
+  font-size: 11pt;
+  font-family: Dosis, sans-serif;
+}
+
+.html {
+  color: orangered;
+}
+
+.css {
+  color: royalblue;
+}
+
+.js {
+  color: rgb(204, 204, 4);
+}
+
+.react {
+  color: rgb(27, 214, 214);
+}
+
+.redux {
+  color: rgb(156, 77, 230);
+}
+
+.firebase {
+  color: orange;
+}
+
+.bootstrap {
+  color: rgb(132, 66, 255);
+}
+
+.materialUI {
+  color: rgb(38, 102, 213);
+}
+
+.netlify {
+  color: rgb(26, 207, 146);
 }
