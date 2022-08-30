@@ -9,7 +9,7 @@ export function Background() {
   });
   return (
     <div className="background">
-      <video ref={videoRef} autoPlay loop muted playsInLine>
+      <video ref={videoRef} autoPlay loop muted playsInline>
         <source src={backgroundVideo} type="video/mp4" />
       </video>
     </div>
