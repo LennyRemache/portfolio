@@ -1,10 +1,11 @@
 .navbar {
   backdrop-filter: blur(10px);
-  position: fixed !important;
+  position: sticky !important;
   top: 0;
   text-align: center;
-  z-index: 0;
-  width: 100vw;
+  z-index: 1;
+  width: 100%;
+  border: 0px solid red;
 }
 
 .navbar > .container {
@@ -20,6 +21,12 @@
   background-color: transparent;
   border: none !important;
   box-shadow: none !important;
+}
+
+.nav-link {
+  margin: 0px 10px;
+  text-decoration: 5px underline rgba(63, 69, 158, 0.876);
+  text-underline-offset: 8px;
 }
 
 @media screen and (max-width: 767px) {

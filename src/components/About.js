@@ -16,8 +16,8 @@ function About() {
           in Mathematics. As a frontend web developer, I enjoy bridging the gap
           between engineering and design - combining my technical knowledge with
           keen eye for design to create a beautiful product. My goal is to
-          always build applications that are scalable and efficient under the
-          hood while providing engaging, pixel-perfect user experience.
+          always develop innovative solutions to meet customers’ needs and
+          positively impact their lives.
           <br />
           <br />
           <span className="uni-bold">

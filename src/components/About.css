@@ -10,7 +10,7 @@
 .about-content {
   display: flex;
   flex-direction: column;
-  max-width: 1000px;
+  max-width: 650px;
   width: 100%;
   align-items: center;
 }
@@ -21,9 +21,9 @@
   height: 275px;
   object-fit: cover;
   object-position: top;
-  box-shadow: 0px 0px 28px 12px rgba(48, 152, 196, 0.75);
-  -webkit-box-shadow: 0px 0px 28px 12px rgba(48, 152, 196, 0.75);
-  -moz-box-shadow: 0px 0px 28px 12px rgba(48, 152, 196, 0.75);
+  box-shadow: 0px 0px 68px 0px rgba(63, 69, 158, 0.876);
+  -webkit-box-shadow: 0px 0px 68px 0px rgba(63, 69, 158, 0.876);
+  -moz-box-shadow: 0px 0px 68px 0px rgba(63, 69, 158, 0.876);
   margin: 20px 0;
   border-radius: 15px;
 }
@@ -34,4 +34,5 @@
 
 .uni-bold {
   font-weight: bolder;
+  color: rgb(66, 134, 229);
 }

@@ -5,18 +5,20 @@ import HomeIcon from "@mui/icons-material/Home";
 function Project({ appImage, link, name, git }) {
   return (
     <div className="project">
-      <h2>
-        <a href={link} target="_blank">
+      <h4>
+        <a href={link ? link : git} target="_blank">
           {name}
         </a>
-      </h2>
+      </h4>
       <img className="project-gif" src={appImage} />
       <div className="project-buttons">
-        <a href={link}>
-          <HomeIcon fontSize="small" />
-          VIEW
-        </a>
-        <a href={git}>
+        {link && (
+          <a href={link} target="_blank">
+            <HomeIcon fontSize="small" />
+            VIEW
+          </a>
+        )}
+        <a href={git} target="_blank">
           <GitHub fontSize="small" />
           GITHUB
         </a>

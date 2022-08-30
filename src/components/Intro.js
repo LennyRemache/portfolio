@@ -7,11 +7,19 @@ function Intro() {
   return (
     <div className="intro">
       <div className="intro--content">
-        <h1>Hi, I'm Lenny | Frontend Developer</h1>
+        <h1>
+          Hi, I'm Lenny | <span className="underline">Frontend Developer</span>
+        </h1>
         <div className="contact-icons">
-          <GitHubIcon />
-          <LinkedInIcon />
-          <EmailIcon />
+          <a href="https://github.com/LennyRemache" target="_blank">
+            <GitHubIcon />
+          </a>
+          <a href="https://www.linkedin.com/in/lennyremache/" target="_blank">
+            <LinkedInIcon />
+          </a>
+          <a>
+            <EmailIcon />
+          </a>
         </div>
         <p className="intro--caption">
           Web developer based in New York City 🗽 <br />

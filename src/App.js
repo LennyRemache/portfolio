@@ -18,7 +18,7 @@ function App() {
       <About />
 
       <div id="projects">
-        <h2>Projects</h2>
+        <h3>Projects</h3>
         <div className="projects">
           <Project
             appImage={DevChat}
@@ -34,7 +34,6 @@ function App() {
           />
           <Project
             appImage={LinkTracker}
-            link="https://github.com/LennyRemache/chrome-extension.git"
             name="Link Tracker Chrome Extension"
             git="https://github.com/LennyRemache/chrome-extension.git"
           />
