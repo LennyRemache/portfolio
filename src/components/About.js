@@ -13,11 +13,12 @@ function About() {
             New York University Tandon School of Engineering
           </span>{" "}
           after completing my Bachelor of Science in Computer Science and minor
-          in Mathematics. As a frontend web developer, I enjoy bridging the gap
-          between engineering and design - combining my technical knowledge with
-          keen eye for design to create a beautiful product. My goal is to
-          always develop innovative solutions to meet customers’ needs and
-          positively impact their lives.
+          in Mathematics. As a frontend software engineer, I enjoy bridging the
+          gap between engineering and design - using my technical knowledge to
+          create a beautiful product. Solving technical problems when building a
+          product that can have a real world impact is what drives my work
+          ethic. My goal is to always develop innovative solutions to meet
+          customers’ needs and positively impact their lives.
           <br />
           <br />
           <span className="uni-bold">
